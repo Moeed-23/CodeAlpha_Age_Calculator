@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #142e96, #800c0cb2);
+    padding: 10px;
+}
+.AgeCalculator {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 25%;
+}
+.AgeCalculator h1 {
+    color: #ffffff;
+    font-size: 60px;
+    padding-left: 12%;
+}
+.container span {
+    color: #fafafa; 
+}
+.input-box {
+    margin: 40px 0;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4em;
+    
+}
+.input-box input {
+    flex: 1;
+    height: 60px;
+    margin-right: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 0.3em;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 17px;
+    position: relative;
+}
+.input-box button {
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 0.3em;
+    color: #000000;
+    background: #00ff11a2;
+    cursor: pointer;
+}
+.input-box input::-webkit-calendar-picker-indicator {
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: auto;
+    height: auto;
+    background-position: calc(100% - 10px);
+    position: absolute;
+    cursor: pointer;
+    background-size: 30px;
+}
+#ans span:nth-child(1) { 
+    font-size: 25px;
+    color: #ffff76;
+}
+#ans span:nth-child(2) {
+    font-size: 23px;
+    color: orange;
+}
+#ans span:nth-child(3) {
+    font-size: 20px;
+    color: orangered;
+}
+#ans {
+    color: #fff;
+    font-size: 20px;
+}
+#age-output {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.age-box {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 0.4em;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3)
+}
+span {
+    font-size: 30px;
+    font-weight: 500; 
+}
+p {
+    font-size: 16px;
+    color: #a3a2a2;
+    font-weight: 400; 
+    text-align: center;
+}
